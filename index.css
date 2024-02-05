@@ -170,7 +170,7 @@ background-color: #E0AAFF;
   grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
   column-gap: 0.7em;
   z-index: -1002;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
 }
 
 @media (max-width:850px){
