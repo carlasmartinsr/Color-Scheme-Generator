@@ -25,15 +25,15 @@ body {
 }
 
 
-input, select, button{
+input, select, button,label{
   font-family: inherit;
   font-size: inherit;
 }
 
 
 @media (max-width:600px){
-  input, select, button {
-   font-size: 0.65rem;
+  input, select, button, label {
+   font-size: 0.9rem;
   }
 }
 
@@ -142,12 +142,6 @@ form {
 }
 
 
-@media (max-width:600px){
-  .color-schemes-options{ 
-    font-size: 0.9rem;
-  }
-}
-
 .color-schemes-options option:hover{
 background-color: #E0AAFF;
 }
@@ -156,7 +150,7 @@ background-color: #E0AAFF;
 @media (max-width:600px){
   .btn-get-color-scheme{ 
     margin-top: 0.25em;
-    font-size: 0.9rem;
+    
   }
 }
 
@@ -165,12 +159,12 @@ background-color: #E0AAFF;
 
 .color-output-section {
   max-width: 51em;
-  margin: 0 auto;
+  margin: 0 auto 1em 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
   column-gap: 0.7em;
   z-index: -1002;
-  padding-bottom: 1.5em;
+  
 }
 
 @media (max-width:850px){
